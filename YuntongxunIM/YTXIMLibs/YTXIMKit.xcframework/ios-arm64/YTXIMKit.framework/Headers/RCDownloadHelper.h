@@ -3,7 +3,7 @@
 //  RongIMLib
 //
 //  Created by rongcloud on 2018/12/17.
-//  Copyright © 2018 RongCloud. All rights reserved.
+//  Copyright © 2018 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

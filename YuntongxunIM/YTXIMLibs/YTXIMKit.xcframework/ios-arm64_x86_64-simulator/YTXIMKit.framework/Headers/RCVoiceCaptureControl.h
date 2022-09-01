@@ -1,8 +1,8 @@
 //
 //  RCVoiceCaptureControl.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by xugang on 7/4/14.
+//  Created by dongxuelei on 7/4/14.
 //  Copyright (c) 2014 Heq.Shinoda. All rights reserved.
 //
 

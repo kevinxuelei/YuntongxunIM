@@ -94,4 +94,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *attachedInfo;
 @end
 
+@interface YTXGetGroupMemberListInfo : NSObject
+@property (nonatomic, strong) NSArray *members;
+@property (nonatomic, assign) NSInteger total;
+@end
+
 NS_ASSUME_NONNULL_END

@@ -1,9 +1,9 @@
 //
 //  RCCombineMessageUtility.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by liyan on 2019/8/26.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,11 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RCCombineMessageUtility : NSObject
 
-+ (NSString *)getCombineMessageSummaryTitle:(RCCombineMessage *)message;
++ (NSString *)getCombineMessageSummaryTitle:(YTXMessage *)message;
 
-+ (NSString *)getCombineMessagePreviewVCTitle:(RCCombineMessage *)message;
++ (NSString *)getCombineMessagePreviewVCTitle:(YTXMessage *)message;
 
-+ (NSString *)getCombineMessageSummaryContent:(RCCombineMessage *)message;
++ (NSString *)getCombineMessageSummaryContent:(YTXMessage *)message;
 
 + (BOOL)allSelectedCombineForwordMessagesAreLegal:(NSArray<YTXMessageModel *> *)allSelectedMessages;
 

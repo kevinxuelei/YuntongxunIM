@@ -148,6 +148,7 @@ typedef NS_ENUM(NSUInteger, YTXReceivedStatus) {
 };
 
 typedef NS_ENUM(NSUInteger, YTXMessageType) {
+    // 1-499 基本消息
     YTXMessageType_Text = 1,// 文本消息
     YTXMessageType_Voice =  2,// 声音消息
     YTXMessageType_Video = 3,// 视频消息
@@ -170,13 +171,28 @@ typedef NS_ENUM(NSUInteger, YTXMessageType) {
     YTXMessageType_SayHi = 20,  // 打招呼
     YTXMessageType_Clap = 21,  //  拍一拍
     YTXMessageType_Chain = 22,  // 接龙消息
+    
+    // 700-799 通用动作消息
+    YTXMessageType_CurrencyHandleBegin  = 700,
+    YTXMessageType_VoiceReaded = 701, // 语音已读消息
+    YTXMessageType_Revoke = 702, // 撤回消息
+    YTXMessageType_HasReadReceipt  = 703, // 单聊已读回执消息
+    YTXMessageType_EraserReceipt  = 704, // 数据擦除
+    YTXMessageType_SyncReadStatus  = 705, // 已读状态多端同步消息
+
 };
 
-///通知消息级别
+///通知消息级别 - 免打扰状态（免打扰状态
 typedef NS_ENUM(NSInteger, YTXNotificationLevelType) {
-    YTXNotificationLevelType_ALL_MESSAGE    = 0,   // 全部消息通知（接收全部消息通知 ，不开启免打扰
-    YTXNotificationLevelType_NOT_MESSAGE    = 1,   // 不接收信息
-    YTXNotificationLevelType_NO_NOTIFICATION= 2,   // 接收但不提醒
+    YTXNotificationLevelType_ReceiveUnSet     = 0,   // 0：未设置（向上查询群或者APP级别设置）// 存量数据中 0 表示未设置
+    YTXNotificationLevelType_ReceiveAllMessage    = 1,   // 全部消息通知（接收全部消息通知 -- 显示指定关闭免打扰功能）
+    YTXNotificationLevelType_ReceiveGroupAtMessage    = 2,   //群聊超级群仅 @ 消息通知（现在通知）单聊代表全部消息通知
+    YTXNotificationLevelType_ReceiveGroupAtOneMessage  = 3, //@ 指定用户通知
+    
+    YTXNotificationLevelType_ReceiveGroupAtAllMessage  = 4, //群@所有人通知
+    
+    YTXNotificationLevelType_ReceiveNotNotifyMessage  = 5 ,//接收但不提醒
+    YTXNotificationLevelType_NotReceiveMessage  = 6, //消息通知被屏蔽，即不接收消息通知））
 };
 
 
@@ -198,7 +214,7 @@ typedef NS_ENUM(NSUInteger,  YTXMessageStatus) {
     YTXMessageStatus_FAILED= 3,   // 发送失败
     YTXMessageStatus_DELETED = 4,// 已删除
     YTXMessageStatus_WITHDRAW= 5,    //  已撤回
-
+    YTXMessageStatus_FILTERED = 6,    //  已过滤
 };
 ///群不可用状态
 typedef NS_ENUM(NSUInteger,  YTXGroupStatus) {
@@ -220,7 +236,7 @@ typedef NS_ENUM(NSUInteger, YTXBlackListStatus) {
     YTXBlackListStatus_In = 1, //在黑名单中
     YTXBlackListStatus_NotIn= 2,//不在黑名单中
 };
-///用户黑名单状态
+///登录状态
 typedef NS_ENUM(NSUInteger, YTXLoginStatus) {
     YTXLoginStatus_sdkInit = 0,
     YTXLoginStatus_loginSuccess = 101,

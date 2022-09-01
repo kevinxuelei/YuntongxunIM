@@ -1,9 +1,9 @@
 //
 //  UIImage+YTXDynamicImage.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by 张改红 on 2019/11/11.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2019/11/11.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

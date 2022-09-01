@@ -21,11 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) YTXConversationType conversationType;
 /**
- @brief 会话群聊Id
+ @brief 会话单聊Id
  */
 @property (nonatomic, copy) NSString *uid;
 /**
- @brief 用户名
+ @brief groupId
  */
 @property (nonatomic, copy) NSString *groupId;
 /**
@@ -96,5 +96,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable, copy) NSString *ex;
 
 @end
+
+
+
 
 NS_ASSUME_NONNULL_END

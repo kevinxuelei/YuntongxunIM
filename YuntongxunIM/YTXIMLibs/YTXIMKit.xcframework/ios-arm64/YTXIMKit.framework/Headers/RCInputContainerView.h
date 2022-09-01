@@ -1,9 +1,9 @@
 //
 //  RCInputContainerView.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by 张改红 on 2020/5/26.
-//  Copyright © 2020 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2020/5/26.
+//  Copyright © 2020 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

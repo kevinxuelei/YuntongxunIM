@@ -2,7 +2,7 @@
 //  RCThemeDefine.h
 //  iOS-IMKit
 //
-//  Created by xugang on 14-9-19.
+//  Created by dongxuelei on 14-9-19.
 //  Copyright (c) 2014年 Heq.Shinoda. All rights reserved.
 //
 

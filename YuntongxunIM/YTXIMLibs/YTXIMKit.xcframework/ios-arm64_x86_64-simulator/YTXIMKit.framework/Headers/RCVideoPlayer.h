@@ -1,9 +1,9 @@
 //
 //  RCVideoPlayer.h
-//  RongExtensionKit
+//  YTXIMKit
 //
 //  Created by birney on 2018/7/9.
-//  Copyright © 2018年 RongCloud. All rights reserved.
+//  Copyright © 2018年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

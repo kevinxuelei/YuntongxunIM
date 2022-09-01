@@ -1,12 +1,12 @@
 //
 //  RCHQVoiceMessageCell.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by Zhaoqianyu on 2019/5/20.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
-//#import "RongIMKit.h"
+//#import "YTXIMKit.h"
 #import "YTXMessageCell.h"
 /*!
  语音消息Cell

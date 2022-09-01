@@ -38,6 +38,10 @@
  */
 - (void)onUserTokenExpired;
 
+- (void)onSyncStart;
+- (void)onSyncFailed:(int32_t)errCode errMsg:(NSString* _Nullable)errMsg;
+- (void)onSyncFinished;
+
 @end
 
 #endif /* YTXBaseDelegate_h */

@@ -1,9 +1,9 @@
 //
 //  RCConversationViewController.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by xugang on 15/1/22.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 15/1/22.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
 #import "YTXBaseViewController.h"
@@ -756,4 +756,6 @@ typedef NS_ENUM(NSUInteger, RCCustomerServiceStatus) {
  开发者如果想更换转发消息的选择会话界面，可以重写此方法，弹出自定义的选择会话界面，选择结束之后，调用completedBlock传入选中的会话即可。
  */
 //- (void)forwardMessage:(NSInteger)index completed:(void (^)(NSArray<RCConversation *> *conversationList))completedBlock;
+
+- (void)onTypingStatusChanged:(YTXTypingMessage*)tipMsg;
 @end

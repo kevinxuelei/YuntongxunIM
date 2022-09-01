@@ -1,9 +1,9 @@
 //
 //  RCPhotoPreviewCollectionViewFlowLayout.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by 孙浩 on 2020/9/4.
-//  Copyright © 2020 RongCloud. All rights reserved.
+//  Copyright © 2020 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

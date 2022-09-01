@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "YTXConversationModel.h"
 #import "YTXBaseViewController.h"
+#import "YTXNetworkIndicatorView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -116,7 +117,7 @@ NS_ASSUME_NONNULL_BEGIN
 /*!
 提示网络连接不可用的 View
 */
-//@property (nonatomic, strong) RCNetworkIndicatorView *networkIndicatorView;
+@property (nonatomic, strong) YTXNetworkIndicatorView *networkIndicatorView;
 
 /*!
  设置在会话列表中显示的头像形状，矩形或者圆形（全局有效）
@@ -160,7 +161,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param model   会话Cell的数据模型
  */
-//- (void)didTapCellPortrait:(YTXConversationModel *)model;
+- (void)didTapCellPortrait:(YTXConversationModel *)model;
 
 /*!
  长按Cell头像的回调
@@ -265,7 +266,7 @@ NS_ASSUME_NONNULL_BEGIN
  @discussion 如果该会话Cell数据模型在数据源中已经存在，则会更新数据源中的数据并更新UI；
  如果数据源没有该会话Cell的数据模型，则插入数据源再更新UI。
  */
-//- (void)refreshConversationTableViewWithConversationModel:(YTXConversationModel *)conversationModel;
+- (void)refreshConversationTableViewWithConversationModel:(YTXConversationModel *)conversationModel;
 
 /*!
  当用户退出登陆时，是否还能继续显示会话列表

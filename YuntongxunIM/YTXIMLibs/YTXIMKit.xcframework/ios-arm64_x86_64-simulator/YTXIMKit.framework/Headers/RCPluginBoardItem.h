@@ -1,9 +1,9 @@
 //
 //  RCPluginBoardItem.h
-//  RongExtensionKit
+//  YTXIMKit
 //
 //  Created by Liv on 15/3/15.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,9 +1,9 @@
 //
 //  YTXMessageCellDelegate.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by xugang on 3/14/15.
-//  Copyright (c) 2015 RongCloud. All rights reserved.
+//  Created by dongxuelei on 3/14/15.
+//  Copyright (c) 2015 yuntongxun. All rights reserved.
 //
 
 #import "YTXMessageModel.h"

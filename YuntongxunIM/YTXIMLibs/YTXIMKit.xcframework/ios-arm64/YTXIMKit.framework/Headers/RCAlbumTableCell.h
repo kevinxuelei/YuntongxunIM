@@ -1,9 +1,9 @@
 //
 //  RCAlbumTableCell.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by 张改红 on 16/3/18.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 16/3/18.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import "RCAlbumModel.h"

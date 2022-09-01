@@ -1,9 +1,9 @@
 //
 //  RCButton.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by 张改红 on 2019/11/28.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2019/11/28.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

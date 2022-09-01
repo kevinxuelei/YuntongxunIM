@@ -1,9 +1,9 @@
 //
 //  RCResendManager.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by 孙浩 on 2020/6/1.
-//  Copyright © 2020 RongCloud. All rights reserved.
+//  Copyright © 2020 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

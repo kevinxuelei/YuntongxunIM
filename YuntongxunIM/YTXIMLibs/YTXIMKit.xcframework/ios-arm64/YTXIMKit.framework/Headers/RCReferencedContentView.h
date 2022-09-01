@@ -1,9 +1,9 @@
 //
 //  RCReferencedContentView.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by 张改红 on 2020/2/27.
-//  Copyright © 2020 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2020/2/27.
+//  Copyright © 2020 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

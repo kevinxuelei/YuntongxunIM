@@ -1,13 +1,13 @@
 //
-//  RongExtensionKit.h
-//  RongExtensionKit
+//  YTXIMKit.h
+//  YTXIMKit
 //
-//  Created by 岑裕 on 2016/10/18.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2016/10/18.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
-#ifndef RongExtensionKit_h
-#define RongExtensionKit_h
+#ifndef YTXIMKit_h
+#define YTXIMKit_h
 
 #import "RCChatSessionInputBarControl.h"
 #import "RCEmojiBoardView.h"
@@ -20,4 +20,4 @@
 #import "RCTextView.h"
 #import "RCVoiceRecorder.h"
 
-#endif /* RongExtensionKit_h */
+#endif /* YTXIMKit_h */

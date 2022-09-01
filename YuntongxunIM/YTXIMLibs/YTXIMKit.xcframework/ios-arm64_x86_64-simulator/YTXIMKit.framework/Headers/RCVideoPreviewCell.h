@@ -1,9 +1,9 @@
 //
 //  RCVideoPreviewCell.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by zhaobingdong on 2018/7/5.
-//  Copyright © 2018年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2018/7/5.
+//  Copyright © 2018年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

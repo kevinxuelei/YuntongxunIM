@@ -26,11 +26,11 @@
 		</data>
 		<key>Headers/YTXBaseConfigOption.h</key>
 		<data>
-		+wKEVcYdaFaAbGQSnYB7t3KnN1Y=
+		0G8sX/qwsX3Rj2sdATD2MDbxDvI=
 		</data>
 		<key>Headers/YTXBaseElem.h</key>
 		<data>
-		8713JseO43UBX6TU0gQoM1NWCZU=
+		fIwLt6kpLB2aQgBsxOtCHmiVH5Q=
 		</data>
 		<key>Headers/YTXCallback.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/YTXCallbacker.h</key>
 		<data>
-		1o9F1DVIdYDJS61OvJyiYrb+Nj4=
+		bb9IflG1urHrSDT3z3lKY3L0Coo=
 		</data>
 		<key>Headers/YTXCardElem.h</key>
 		<data>
@@ -46,35 +46,35 @@
 		</data>
 		<key>Headers/YTXConversation.h</key>
 		<data>
-		4jiRIZxQcfG+VKIVvejI3AAvP+k=
+		Mj+pSCCjljCbXBdU+lopy45GEpo=
 		</data>
 		<key>Headers/YTXConversationDelegate.h</key>
 		<data>
-		wDtdfF6awRlFkNMXoG31jnasR0U=
+		0rKKaJozdewpMg/vE8XfPXjGRAY=
 		</data>
 		<key>Headers/YTXCoreClient+Connection.h</key>
 		<data>
-		eh9GO1H/rIg2RoO968wJWe3R1bE=
+		vGOnWB0QjjsdTcXmu9Hr/JZvXK0=
 		</data>
 		<key>Headers/YTXCoreClient+Conversation.h</key>
 		<data>
-		+ATHi+LufiCIOA71jqycZ7L8w+A=
+		3WkGwaFp4q0orFsqLJCifaZq8E4=
 		</data>
 		<key>Headers/YTXCoreClient+Friend.h</key>
 		<data>
-		g26m7fMrunn/sw+sTxebNYDHMx0=
+		G9E9Q22msKp9ZTaor7hGNKXnpcc=
 		</data>
 		<key>Headers/YTXCoreClient+Group.h</key>
 		<data>
-		USjhROeP101Q/hsK5f1cJPQS3po=
+		tpIuD6PeF+EYDKNxe4U6guvfpHY=
 		</data>
 		<key>Headers/YTXCoreClient+Login.h</key>
 		<data>
-		xDv2UXDtRT3Hm7RRIZGydLH1RMI=
+		AhJOJJlvhORhdNqLHCMT/Y6KaGw=
 		</data>
 		<key>Headers/YTXCoreClient+Message.h</key>
 		<data>
-		MEtetTjWS69w5dXNR33C/G6TYk4=
+		mrxpis0u0vqZ/Ctz/ZEK6lbfj+o=
 		</data>
 		<key>Headers/YTXCoreClient+Signaling.h</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Headers/YTXCoreClient+User.h</key>
 		<data>
-		9C9rWT4IsVdYC4Cu55dT0PqYdLI=
+		F63/dVKVpLf3ANmfSFNRSADE58g=
 		</data>
 		<key>Headers/YTXCoreClient.h</key>
 		<data>
-		av7kBZYT233EQxZXBnaudO+vk84=
+		S5LKN95Ar0uI8lC/93hxMhpBSeA=
 		</data>
 		<key>Headers/YTXCoreDelegate.h</key>
 		<data>
@@ -94,11 +94,15 @@
 		</data>
 		<key>Headers/YTXCoreUtilities.h</key>
 		<data>
-		rDhmIj90MZQDsEkLS/d+ytAtxaw=
+		orHEDzkJO8e6E/a2M6gQVgMko1E=
 		</data>
 		<key>Headers/YTXCustomElem.h</key>
 		<data>
 		+IEbRtiIfPyZtAYnHH8w7Do5LbA=
+		</data>
+		<key>Headers/YTXDownloadFileCallback.h</key>
+		<data>
+		ZtuWx1sOJnntuHzGwvVRqLmYzrs=
 		</data>
 		<key>Headers/YTXFaceElem.h</key>
 		<data>
@@ -134,11 +138,11 @@
 		</data>
 		<key>Headers/YTXGroupInfo.h</key>
 		<data>
-		55TTMTnuYUeXw00CwBTp2rhctv0=
+		MsyjFa6RsG3wY53f5//azVH/y6I=
 		</data>
 		<key>Headers/YTXGroupMemberInfo.h</key>
 		<data>
-		V7Zk+DhHzAmEFYLLIM1zko6rC9M=
+		fzD9liyAVLxrkuPjo+WlrEAv+CU=
 		</data>
 		<key>Headers/YTXIMLibCore.h</key>
 		<data>
@@ -146,7 +150,7 @@
 		</data>
 		<key>Headers/YTXLocationElem.h</key>
 		<data>
-		iDyqp6HF1nTwgPLO0bRMkPLlsCs=
+		ZOQPPcHnsoVktaGd4Qt5DCZEfgo=
 		</data>
 		<key>Headers/YTXLog.h</key>
 		<data>
@@ -158,15 +162,15 @@
 		</data>
 		<key>Headers/YTXMessage.h</key>
 		<data>
-		bD/KkBgmP/24DtbDBIqRL7MJwmY=
+		VgXeAvnsPijH+glOdCBMjO75BEI=
 		</data>
 		<key>Headers/YTXMessageDelegate.h</key>
 		<data>
-		a5oDxjXDeXtZu4rJqKTjZgczZEw=
+		LgX8l5W7GuVj/OEOmko1ZN6T/HM=
 		</data>
 		<key>Headers/YTXNotificationElem.h</key>
 		<data>
-		0CqReCZt6DhMuK0wtiIK5UnP0eU=
+		5PRESGGPv33rwS209LtCggjfWDY=
 		</data>
 		<key>Headers/YTXPictureElem.h</key>
 		<data>
@@ -182,7 +186,7 @@
 		</data>
 		<key>Headers/YTXSDKDelegate.h</key>
 		<data>
-		qPSJowFd2xRm6VTP9R9jtVuKDGM=
+		u+YCUyn9xOdn6A/cNFX0MoyINQA=
 		</data>
 		<key>Headers/YTXSendMessageCallback.h</key>
 		<data>
@@ -198,7 +202,7 @@
 		</data>
 		<key>Headers/YTXStatusDefine.h</key>
 		<data>
-		snK6dUm7XnborzkVxsJzDxYGX3E=
+		/I2eFHRB89HCaEh6eT8bQ4274A8=
 		</data>
 		<key>Headers/YTXTextElem.h</key>
 		<data>
@@ -210,7 +214,7 @@
 		</data>
 		<key>Headers/YTXUserInfo.h</key>
 		<data>
-		XnRnZA5ifFoFIxR/JZc8p0AYzSY=
+		eddhq0TH17oBW0Jif03wLm/hsqU=
 		</data>
 		<key>Headers/YTXVideoElem.h</key>
 		<data>
@@ -286,22 +290,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+wKEVcYdaFaAbGQSnYB7t3KnN1Y=
+			0G8sX/qwsX3Rj2sdATD2MDbxDvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yi30MOwGGoUk/3ig35ESsjj43sYwsPhMQhxlPRLlwko=
+			GQCTE13Ssl64uE/M2NhzQgDcqktk39sk+IAVt3lpAAc=
 			</data>
 		</dict>
 		<key>Headers/YTXBaseElem.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8713JseO43UBX6TU0gQoM1NWCZU=
+			fIwLt6kpLB2aQgBsxOtCHmiVH5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yla1yBmxNHn4FfiazeGM4WQFMNZcqHRO6ky13N2RGFM=
+			3Q/YOxjGw5VvypjFAV16wY1S8K8sWPQZ1Vve6EDDPHo=
 			</data>
 		</dict>
 		<key>Headers/YTXCallback.h</key>
@@ -319,11 +323,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1o9F1DVIdYDJS61OvJyiYrb+Nj4=
+			bb9IflG1urHrSDT3z3lKY3L0Coo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ovycel5AuUb7JGi1R5EyUzYRwqFGaUHD0d2QcCgLLXs=
+			LTG+60HtpFZBoKeotII5OMa1CLKFH3gD7SnvrMif3+g=
 			</data>
 		</dict>
 		<key>Headers/YTXCardElem.h</key>
@@ -341,88 +345,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4jiRIZxQcfG+VKIVvejI3AAvP+k=
+			Mj+pSCCjljCbXBdU+lopy45GEpo=
 			</data>
 			<key>hash2</key>
 			<data>
-			1AYTKQv6zwO4IZ3Nczo2IEwSMr+Vga6GDttqmpgcryA=
+			jxl36BP2eTqX5F5y2FhkVoRJRX0/rycV25P/ZTyw1x8=
 			</data>
 		</dict>
 		<key>Headers/YTXConversationDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wDtdfF6awRlFkNMXoG31jnasR0U=
+			0rKKaJozdewpMg/vE8XfPXjGRAY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Um5ho/HLTEMM3qSmHzWINAXPBFo0lKYRQS79LB50pvc=
+			+j2Iog2daRBMrPdBTLrHKr8weIdfUfvG3IrSXg5Ow3E=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient+Connection.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eh9GO1H/rIg2RoO968wJWe3R1bE=
+			vGOnWB0QjjsdTcXmu9Hr/JZvXK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			JLLo3yy+QfXJxID4CFWZ/8wAvWWBzrRn08AfqjzvM+c=
+			FUqZxedOij9tTaVeGOs+bk7v24b8pNUVt5eDc/kkSKk=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient+Conversation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+ATHi+LufiCIOA71jqycZ7L8w+A=
+			3WkGwaFp4q0orFsqLJCifaZq8E4=
 			</data>
 			<key>hash2</key>
 			<data>
-			JP/SVp4v2IhnG0CgcZXyRjy1coBWp1ZDGYbGmPTF02s=
+			XxkDfslkF9sA8ZaNSzYqp5R0tPbfRt84v0PpURaqez8=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient+Friend.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g26m7fMrunn/sw+sTxebNYDHMx0=
+			G9E9Q22msKp9ZTaor7hGNKXnpcc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lN06ZihKavKNihaohOPLecptIxjZnNgQBOo7+ScXWfE=
+			F7OTFU+eeswfIn+jaAyZ6NmUjZJhR3Mt0sLBNhTFy+8=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient+Group.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			USjhROeP101Q/hsK5f1cJPQS3po=
+			tpIuD6PeF+EYDKNxe4U6guvfpHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			auOkvi5nXpyX9Jo0ZYe/4BEicz5AnId/+LvijJ+lJNY=
+			JOmRbwVF3QoorJ5VXr7rMp/O3z3AppoKfQvSMFXEdcc=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient+Login.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xDv2UXDtRT3Hm7RRIZGydLH1RMI=
+			AhJOJJlvhORhdNqLHCMT/Y6KaGw=
 			</data>
 			<key>hash2</key>
 			<data>
-			hkkYqSNwAD8cRiyHl/LxTS2vpCnz2EJgz/Z76GBXvh4=
+			QosjcF2VA4Kg28WP9RdgtoVZGUadSGfMJOQO/SvYqlg=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient+Message.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MEtetTjWS69w5dXNR33C/G6TYk4=
+			mrxpis0u0vqZ/Ctz/ZEK6lbfj+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			+m7F10koBsIK1FSbuDXBTg16/t5yPcOjiTnGhPjJLJM=
+			wvFFP6ESPgqONzEIYOvXJKbdipXF6GjTbnj9in1KqPw=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient+Signaling.h</key>
@@ -440,22 +444,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9C9rWT4IsVdYC4Cu55dT0PqYdLI=
+			F63/dVKVpLf3ANmfSFNRSADE58g=
 			</data>
 			<key>hash2</key>
 			<data>
-			B9swuXl4L9KLRfERnZ59oTX680f5F/7E1WubBckeS5I=
+			Nci1/pyiAcAIqLphybW0AHHc5hh+sP7m1UrJuwmW32s=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreClient.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			av7kBZYT233EQxZXBnaudO+vk84=
+			S5LKN95Ar0uI8lC/93hxMhpBSeA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9KGHwq5+a8htit6p15igex28pOP7jPJ/gOQAUXlY1pE=
+			/o+solnD+45mrPe3JDUDS/G+Fclm1/YjXoD8otb4gLU=
 			</data>
 		</dict>
 		<key>Headers/YTXCoreDelegate.h</key>
@@ -473,11 +477,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rDhmIj90MZQDsEkLS/d+ytAtxaw=
+			orHEDzkJO8e6E/a2M6gQVgMko1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z7GQv9rQXxAVEr673Pbgz33hpa3QqVi445oqTxtMn/4=
+			vvyy1t44e93Z7TyVdBoT090+iTv2WqsO3Z5ZW9BcPY8=
 			</data>
 		</dict>
 		<key>Headers/YTXCustomElem.h</key>
@@ -489,6 +493,17 @@
 			<key>hash2</key>
 			<data>
 			8Jh59DWvf/5FFBDFFeHnWgul/Au3cRt3dWOwDNVvR24=
+			</data>
+		</dict>
+		<key>Headers/YTXDownloadFileCallback.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZtuWx1sOJnntuHzGwvVRqLmYzrs=
+			</data>
+			<key>hash2</key>
+			<data>
+			3awRENBvvCRlZ4VLRwhD4vjd8T/DIJrgaMIH2Wvjrqc=
 			</data>
 		</dict>
 		<key>Headers/YTXFaceElem.h</key>
@@ -583,22 +598,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			55TTMTnuYUeXw00CwBTp2rhctv0=
+			MsyjFa6RsG3wY53f5//azVH/y6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			eWfjMTgTfTwcp5OkNG0Tvh0kqDx4EpzaU90gmWSOL64=
+			YNAw+7Qlhb0TLXEqPJ9eald9FaEc93aoJNyGozbW+EI=
 			</data>
 		</dict>
 		<key>Headers/YTXGroupMemberInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V7Zk+DhHzAmEFYLLIM1zko6rC9M=
+			fzD9liyAVLxrkuPjo+WlrEAv+CU=
 			</data>
 			<key>hash2</key>
 			<data>
-			eG45hgFa7RSVRj0iQxynZOBETcqq6CyyypMsebvwuWg=
+			Bpiy2knfgvbhm1D/egsDBsyRKSzBxICAkvqoIRuktf0=
 			</data>
 		</dict>
 		<key>Headers/YTXIMLibCore.h</key>
@@ -616,11 +631,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iDyqp6HF1nTwgPLO0bRMkPLlsCs=
+			ZOQPPcHnsoVktaGd4Qt5DCZEfgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			H/imMb4JzzuUtrvEmebLCMbpQgW9DN867IagXj3831U=
+			QC2Fko9LuE3CM3FHQA7eJycz6eVva62wQUUldKOgrKA=
 			</data>
 		</dict>
 		<key>Headers/YTXLog.h</key>
@@ -649,33 +664,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bD/KkBgmP/24DtbDBIqRL7MJwmY=
+			VgXeAvnsPijH+glOdCBMjO75BEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			stffhZo7PgfVBqo3GDu6Hk+iUana9+r3Pug26JJNWUw=
+			imcplP8wRGlrVdC13xeM8iNr93UNt/i7wyIPjz6PvYA=
 			</data>
 		</dict>
 		<key>Headers/YTXMessageDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a5oDxjXDeXtZu4rJqKTjZgczZEw=
+			LgX8l5W7GuVj/OEOmko1ZN6T/HM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sgNGiIA+juO99nTG7V/eItH5muabjtanxlVr5DpBwlk=
+			ZxTFdp5N3FOyzoMy9wyA4ZHsOBAUnRwTaMi20z/XZL0=
 			</data>
 		</dict>
 		<key>Headers/YTXNotificationElem.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0CqReCZt6DhMuK0wtiIK5UnP0eU=
+			5PRESGGPv33rwS209LtCggjfWDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			99mgAUDcyQdpCX8TQHxWb05atOANHdSHboM668nPcKY=
+			+sB02GPVsyGNsf6oOOex8wC2jdei3bYtuWGlF+h18J0=
 			</data>
 		</dict>
 		<key>Headers/YTXPictureElem.h</key>
@@ -715,11 +730,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qPSJowFd2xRm6VTP9R9jtVuKDGM=
+			u+YCUyn9xOdn6A/cNFX0MoyINQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZnMrUxEVJDeauZ43TjgjB5nwLxKX8WZMhIwXukGCS0A=
+			00QzmmCquyC7VPgiGIl7MPwID7Gtp9HFRZALyLpQqYk=
 			</data>
 		</dict>
 		<key>Headers/YTXSendMessageCallback.h</key>
@@ -759,11 +774,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			snK6dUm7XnborzkVxsJzDxYGX3E=
+			/I2eFHRB89HCaEh6eT8bQ4274A8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/naG/h7IWO8g8GdNS995JNQbIWuh6zmFdw9B1LI08PQ=
+			pYJ2v34znPon5eaCcln43gQN7oULQJmAz9JqN2TBX0g=
 			</data>
 		</dict>
 		<key>Headers/YTXTextElem.h</key>
@@ -792,11 +807,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XnRnZA5ifFoFIxR/JZc8p0AYzSY=
+			eddhq0TH17oBW0Jif03wLm/hsqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			pR6Kj2KHg608f0SSuybmguAkby50HqsZjfcddoCI97A=
+			tkVY1Mw+Ylz5wt3D7CGOOcOdq9hSfYp8KphDrqxGZ2A=
 			</data>
 		</dict>
 		<key>Headers/YTXVideoElem.h</key>

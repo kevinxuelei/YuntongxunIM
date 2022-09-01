@@ -15,19 +15,19 @@
 /*
  *  消息接收
  */
-- (void)onMessageReceived:(YTXMessage *)message;
+- (void)onMessageReceived:(YTXMessage *_Nullable)message;
 /*
  *  消息撤回
  */
-- (void)onMessageRevoked:(YTXMessage *)message;
+- (void)onMessageRevoked:(YTXMessage *_Nullable)message;
 /*
  *  单聊消息已读回执
  */
-- (void)onReceivedC2CReadReceipt:(NSArray<YTXMessageReceipt *> *)receiptList;
+- (void)onReceivedC2CReadReceipt:(NSArray<YTXMessageReceipt *> *_Nullable)receiptList;
 /*
  *  群聊消息已读回执
  */
-- (void)onReceivedGroupReadReceipt:(NSArray<YTXMessageReceipt *> *)groupMsgReceiptList;
+- (void)onReceivedGroupReadReceipt:(NSArray<YTXMessageReceipt *> *_Nullable)groupMsgReceiptList;
 
 
 - (void)onReceivedMessageRevoked:(NSString* _Nullable)msgId;

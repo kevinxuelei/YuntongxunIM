@@ -44,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy) NSString *ownerUid;
 /**
- @brief 禁言结束时间
+ @brief 禁言结束时间  当前时间<=0  请求网络时间
  */
 @property (nonatomic, assign) NSInteger muteEndTime;
 /**

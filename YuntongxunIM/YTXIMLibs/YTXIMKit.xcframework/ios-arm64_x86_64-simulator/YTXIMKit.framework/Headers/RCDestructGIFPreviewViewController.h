@@ -1,13 +1,13 @@
 //
 //  RCDestructGIFPreviewViewController.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by Zhaoqianyu on 2019/9/3.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-//#import "RongIMKit.h"
+//#import "YTXIMKit.h"
 #import "YTXIMKitInnerHeader.h"
 #import "RCGIFImageView.h"
 

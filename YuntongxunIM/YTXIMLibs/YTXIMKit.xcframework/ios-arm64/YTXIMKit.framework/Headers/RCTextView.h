@@ -1,9 +1,9 @@
 //
 //  RCTextView.h
-//  RongExtensionKit
+//  YTXIMKit
 //
 //  Created by Liv on 14/10/30.
-//  Copyright (c) 2014年 RongCloud. All rights reserved.
+//  Copyright (c) 2014年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

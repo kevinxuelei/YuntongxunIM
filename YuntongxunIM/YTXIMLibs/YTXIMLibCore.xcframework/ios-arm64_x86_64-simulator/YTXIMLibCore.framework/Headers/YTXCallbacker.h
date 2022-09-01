@@ -24,10 +24,13 @@ typedef void (^YTXStringCallback)(NSString * _Nullable item);
 
 typedef void (^YTXLoginInfoCallback)(YTXLoginInfo * _Nullable loginInfo);
 typedef void (^YTXUserInfoCallback)(YTXUserInfo * _Nullable userInfo);
+typedef void (^YTXUserInfosCallback)(NSArray <YTXUserInfo *> * _Nullable userInfos);
+typedef void (^YTXPublicInfoCallback)(NSArray <YTXPublicInfo *> * _Nullable publicInfos);
 typedef void (^YTXUsersCallback)(NSArray <YTXFriend *> * _Nullable userInfos);
 typedef void (^YTXFullUserInfoCallback)(YTXFriend * _Nullable userInfo);
 typedef void (^YTXFullUsersInfoCallback)(NSArray <YTXFriend *> * _Nullable friendsInfos);
 typedef void (^YTXBlacksInfoCallback)(NSArray <YTXBlackInfo *> * _Nullable blackInfos);
+typedef void (^YTXWhiteInfosCallback)(NSArray <YTXWhiteInfo *> * _Nullable whiteInfo);
 typedef void (^YTXInviteUserResultsCallback)(NSArray <YTXInviteUserResult *> * _Nullable inviteUserResults);
 
 typedef void (^YTXFriendApplicationCallback)(YTXFriendApplication * _Nullable friendApplication);
@@ -45,6 +48,9 @@ typedef void (^YTXConversationsInfoCallback)(NSArray <YTXConversation *> * _Null
 typedef void (^YTXConversationInfoCallback)(YTXConversation * _Nullable conversation);
 typedef void (^YTXMessagesInfoCallback)(NSArray <YTXMessage *> * _Nullable messages);
 typedef void (^YTXMessageInfoCallback)(YTXMessage * _Nullable message);
+typedef void (^YTXHistoryMessagesInfoCallback)(YTXGetHistoryMessageResult * _Nullable messageResult);
+typedef void (^YTXGetGroupMemberListInfoCallback)(YTXGetGroupMemberListInfo * _Nullable result);
+
 
 NS_ASSUME_NONNULL_BEGIN
 @interface YTXCallbacker : NSObject

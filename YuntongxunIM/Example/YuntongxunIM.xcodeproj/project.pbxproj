@@ -56,12 +56,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AF3C9A1DB541E443FB18980 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6AF3C9A1DB541E443FB18980 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		774806F4613693AD31B617C2 /* Pods_YuntongxunIM_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YuntongxunIM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E7ED210DA2194FC4E865D22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A0A84111F8A021BDE6003CAA /* YuntongxunIM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YuntongxunIM.podspec; path = ../YuntongxunIM.podspec; sourceTree = "<group>"; };
+		9E7ED210DA2194FC4E865D22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A0A84111F8A021BDE6003CAA /* YuntongxunIM.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YuntongxunIM.podspec; path = ../YuntongxunIM.podspec; sourceTree = "<group>"; };
 		C03F4D4F54287BE55A44AE64 /* Pods-YuntongxunIM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuntongxunIM_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YuntongxunIM_Tests/Pods-YuntongxunIM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA4A03339C774E339CE0B119 /* Pods-YuntongxunIM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuntongxunIM_Example.release.xcconfig"; path = "Target Support Files/Pods-YuntongxunIM_Example/Pods-YuntongxunIM_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D79FDA1097BF179C5D6ABB21 /* Pods-YuntongxunIM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YuntongxunIM_Tests.release.xcconfig"; path = "Target Support Files/Pods-YuntongxunIM_Tests/Pods-YuntongxunIM_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				C03F4D4F54287BE55A44AE64 /* Pods-YuntongxunIM_Tests.debug.xcconfig */,
 				D79FDA1097BF179C5D6ABB21 /* Pods-YuntongxunIM_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,8 +207,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E2C8553EB3185956B763DB6C /* [CP] Embed Pods Frameworks */,
-				3824BCA2F5B7B159B1C71019 /* [CP] Copy Pods Resources */,
+				A9F53314D7429D9B15BA3C32 /* [CP] Embed Pods Frameworks */,
+				543E94647FC9F0F71C7B45C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = kevinxuelei;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 276ZLS3XU6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -318,7 +321,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3824BCA2F5B7B159B1C71019 /* [CP] Copy Pods Resources */ = {
+		543E94647FC9F0F71C7B45C6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,15 +339,15 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YuntongxunIM_Example/Pods-YuntongxunIM_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2C8553EB3185956B763DB6C /* [CP] Embed Pods Frameworks */ = {
+		A9F53314D7429D9B15BA3C32 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YuntongxunIM_Example/Pods-YuntongxunIM_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YTXIMKit/YTXIMKit.framework/YTXIMKit",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YTXIMLibCore/YTXIMLibCore.framework/YTXIMLibCore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YuntongxunIM/YuntongxunIMKit/YTXIMKit.framework/YTXIMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YuntongxunIM/YuntongxunIMLibCore/YTXIMLibCore.framework/YTXIMLibCore",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -515,11 +518,14 @@
 			baseConfigurationReference = F3AFFE6729D5FBF19EF19AAE /* Pods-YuntongxunIM_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 276ZLS3XU6;
+				EXCLUDED_ARCHS = armv7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YuntongxunIM/YuntongxunIM-Prefix.pch";
 				INFOPLIST_FILE = "YuntongxunIM/YuntongxunIM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronglianyun.plugin-im";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -531,11 +537,14 @@
 			baseConfigurationReference = CA4A03339C774E339CE0B119 /* Pods-YuntongxunIM_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 276ZLS3XU6;
+				EXCLUDED_ARCHS = armv7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YuntongxunIM/YuntongxunIM-Prefix.pch";
 				INFOPLIST_FILE = "YuntongxunIM/YuntongxunIM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronglianyun.plugin-im";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

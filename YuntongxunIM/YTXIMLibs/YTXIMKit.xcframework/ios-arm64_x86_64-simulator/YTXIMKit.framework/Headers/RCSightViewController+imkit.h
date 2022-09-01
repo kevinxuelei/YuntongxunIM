@@ -1,9 +1,9 @@
 //
 //  RCSightViewController+imkit.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by 张改红 on 2020/12/23.
-//  Copyright © 2020 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2020/12/23.
+//  Copyright © 2020 yuntongxun. All rights reserved.
 //
 
 #ifndef RCSightViewController_imkit_h

@@ -1,16 +1,18 @@
 //
 //  YTXKitCommonDefine.h
 //
-//  Created by 岑裕 on 2016/10/12.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2016/10/12.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import "YTXKitUtility.h"
+#import "YTXIMKitManager.h"
 
 #ifndef YTXKitCommonDefine_h
 #define YTXKitCommonDefine_h
 
-#define YTXLocalizedString(key) NSLocalizedStringFromTable(key, @"RongCloudKit", nil)
+//#define YTXLocalizedString(key) NSLocalizedStringFromTable(key, @"RongCloudKit", nil)
+#define YTXLocalizedString(key) [YTXIMKitManager ytx_localizedStringForKey:key]
 #define YTXResourceImage(value) [YTXKitUtility imageNamed:(value) ofBundle:@"YuntongxunIMKit.bundle"]
 #define YTXResourceColor(key, colorStr) [YTXKitUtility color:(key) originalColor:(colorStr)]
 

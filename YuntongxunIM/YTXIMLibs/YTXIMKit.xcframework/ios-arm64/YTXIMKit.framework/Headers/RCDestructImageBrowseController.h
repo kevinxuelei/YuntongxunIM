@@ -1,9 +1,9 @@
 //
 //  RCDestructImageBrowseController.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by Zhaoqianyu on 2018/5/14.
-//  Copyright © 2018年 RongCloud. All rights reserved.
+//  Copyright © 2018年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

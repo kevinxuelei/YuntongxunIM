@@ -13,25 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YTXNotificationElem : YTXBaseElem
 
-@property (nonatomic, nullable, copy) NSString *detail;
-
-@property (nonatomic, nullable, copy) NSString *defaultTips;
-
-/// 以下字段是从detail里面decode出来的
-@property (nonatomic, nullable, strong, readonly) YTXGroupMemberInfo *opUser;
-
-@property (nonatomic, nullable, strong, readonly) YTXGroupMemberInfo *quitUser;
-
-@property (nonatomic, nullable, strong, readonly) YTXGroupMemberInfo *entrantUser;
-/// 群改变新群主的信息
-@property (nonatomic, nullable, strong, readonly) YTXGroupMemberInfo *groupNewOwner;
-
-@property (nonatomic, nullable, strong, readonly) YTXGroupInfo *group;
-
-@property (nonatomic, nullable, strong, readonly) NSArray <YTXGroupMemberInfo *> *kickedUserList;
-
-@property (nonatomic, nullable, strong, readonly) NSArray <YTXGroupMemberInfo *> *invitedUserList;
-
+@property (nonatomic, nullable, copy) NSString *senderNickname;
+@property (nonatomic, nullable, copy) NSString *senderId;
+@property (nonatomic, nullable, copy) NSString *receiverId;
+@property (nonatomic, nullable, strong) NSArray *onlineTemplate;
 @end
 
 NS_ASSUME_NONNULL_END

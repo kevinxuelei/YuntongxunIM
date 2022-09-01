@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (id)dictionaryWithJsonString:(NSString *)jsonString;
 + (NSString *)jsonStringWithDict:(NSDictionary *)dict;
-
++ (NSString *)getNowTimeTimestamp;
 @end
 
 NS_ASSUME_NONNULL_END

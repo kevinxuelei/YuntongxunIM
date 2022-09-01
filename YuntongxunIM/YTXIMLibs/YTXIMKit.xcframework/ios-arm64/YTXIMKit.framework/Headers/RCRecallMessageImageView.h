@@ -1,9 +1,9 @@
 //
 //  RCRecallMessageImageView.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by liulin on 16/7/17.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 16/7/17.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

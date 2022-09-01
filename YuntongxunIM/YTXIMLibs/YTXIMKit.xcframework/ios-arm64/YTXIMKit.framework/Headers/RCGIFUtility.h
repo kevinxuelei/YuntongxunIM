@@ -1,9 +1,9 @@
 //
 //  RCGIFUtility.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by liyan on 2019/7/22.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -11,13 +11,19 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YTXCoreClient (Connection)
-
-- (BOOL)initSDK:(YTXBaseConfigOption*)configure;
+/**
+ @brief SDK初始化
+ @param configure 初始化配置
+ @return 是否成功
+ */
+- (BOOL)initSDK:(YTXBaseConfigOption *)configure;
 
 - (void)setHeartbeatInterval:(NSInteger)heartbeatInterval;
 
 - (void)wakeUpWithOnSuccess:(nullable YTXSuccessCallback)onSuccess
                   onFailure:(nullable YTXFailureCallback)onFailure;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

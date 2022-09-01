@@ -1,7 +1,7 @@
 {
   "name": "YuntongxunIM",
   "version": "0.1.0",
-  "summary": "A short description of YuntongxunIM.",
+  "summary": "Yuntongxun IM SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/kevinxuelei/YuntongxunIM",
   "license": {
@@ -16,7 +16,11 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "armv7"
   },
   "subspecs": [
     {

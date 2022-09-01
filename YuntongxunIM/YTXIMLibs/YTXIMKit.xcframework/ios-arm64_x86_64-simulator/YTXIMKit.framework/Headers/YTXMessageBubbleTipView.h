@@ -2,8 +2,8 @@
 //  YTXMessageBubbleTipView.h
 //  RCIM
 //
-//  Created by xugang on 14-6-20.
-//  Copyright (c) 2014年 xugang. All rights reserved.
+//  Created by dongxuelei on 14-6-20.
+//  Copyright (c) 2014年 dongxuelei. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

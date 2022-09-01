@@ -3,16 +3,16 @@
 //  iOS-IMKit
 //
 //  Created by Gang Li on 10/27/14.
-//  Copyright (c) 2014 RongCloud. All rights reserved.
+//  Copyright (c) 2014 yuntongxun. All rights reserved.
 //
 
-#import "RCAttributedLabel.h"
+#import "YTXAttributedLabel.h"
 #import <UIKit/UIKit.h>
 
 /*!
  灰条提示Label
  */
-@interface YTXTipLabel : RCAttributedLabel
+@interface YTXTipLabel : YTXAttributedLabel
 
 /*!
  边缘间隙

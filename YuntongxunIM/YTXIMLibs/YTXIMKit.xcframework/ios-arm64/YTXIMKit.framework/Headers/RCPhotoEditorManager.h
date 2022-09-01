@@ -1,9 +1,9 @@
 //
 //  RCPhotoEditorManager.h
-//  RongExtensionKit
+//  YTXIMKit
 //
 //  Created by Zqy on 2018/1/18.
-//  Copyright © 2018年 RongCloud. All rights reserved.
+//  Copyright © 2018年 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

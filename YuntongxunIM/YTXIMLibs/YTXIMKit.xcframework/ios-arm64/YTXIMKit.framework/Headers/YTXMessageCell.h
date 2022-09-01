@@ -1,12 +1,12 @@
 //
 //  RCMessageCell.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by xugang on 15/1/28.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 15/1/28.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
-#import "RCContentView.h"
+#import "YTXContentView.h"
 #import "YTXMessageBasedCell.h"
 #import "YTXMessageCellDelegate.h"
 //#import "RCMessageCellNotificationModel.h"
@@ -22,7 +22,7 @@
  展示的消息Cell类
 
  @discussion 需要展示用户信息和内容的消息Cell可以继承此类，
- 如：RCTextMessageCell、RCImageMessageCell、RCLocationMessageCell、RCVoiceMessageCell、RCRichContentMessageCell等。
+ 如：YTXTextMessageCell、YTXImageMessageCell、YTXLocationMessageCell、YTXVoiceMessageCell、RCRichContentMessageCell等。
  如果您需要显示自定义消息，可以继承此类。
  */
 @interface YTXMessageCell : YTXMessageBasedCell
@@ -40,7 +40,7 @@
 /*!
  消息内容的View
  */
-@property (nonatomic, strong) RCContentView *messageContentView;
+@property (nonatomic, strong) YTXContentView *messageContentView;
 
 /*!
  消息的背景View

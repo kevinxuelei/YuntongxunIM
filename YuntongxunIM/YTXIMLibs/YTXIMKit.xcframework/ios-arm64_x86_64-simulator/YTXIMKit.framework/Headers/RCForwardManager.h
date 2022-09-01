@@ -3,7 +3,7 @@
 //  SealTalk
 //
 //  Created by 孙浩 on 2019/6/17.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

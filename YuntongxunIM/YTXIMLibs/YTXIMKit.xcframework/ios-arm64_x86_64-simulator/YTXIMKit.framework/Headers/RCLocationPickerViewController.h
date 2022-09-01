@@ -1,9 +1,9 @@
 //
 //  RCLocationPickerViewController.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by YangZigang on 14/10/31.
-//  Copyright (c) 2014年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 14/10/31.
+//  Copyright (c) 2014年 yuntongxun. All rights reserved.
 //
 
 #import <CoreLocation/CoreLocation.h>

@@ -64,7 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
  TIM.TYPES.ALLOW_TYPE_NEED_CONFIRM（需要经过自己确认才能添加自己为好友）
  TIM.TYPES.ALLOW_TYPE_DENY_ANY（不允许任何人添加自己为好友）
  */
-//@property (nonatomic, assign) YTXAllowType allowType;
+@property (nonatomic, assign) YTXAllowType allowType;
 
 /**
  @brief  创建时间
@@ -73,11 +73,11 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  @brief 状态
  */
-@property (nonatomic, copy) NSString *status;
+@property (nonatomic, assign) NSInteger status;
 /**
  @brief 状态
  */
-@property (nonatomic, copy) NSString *whiteFlag;
+@property (nonatomic, assign) BOOL whiteFlag;
 
 /**
  @brief 国家
@@ -100,6 +100,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *nickname;
 @property (nonatomic, copy) NSString *faceUrl;
 @property (nonatomic, assign) NSInteger birthday;
+@property (nonatomic, assign) BOOL whiteFlag;
 @property (nonatomic, assign) YTXAllowType allowType;
 @property (nonatomic, copy) NSString *signature;
 @property (nonatomic, copy) NSString *ex;

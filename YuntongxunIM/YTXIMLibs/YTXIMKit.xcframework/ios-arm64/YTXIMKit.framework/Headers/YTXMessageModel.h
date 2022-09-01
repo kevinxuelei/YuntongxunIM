@@ -1,9 +1,9 @@
 //
 //  YTXMessageModel.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by xugang on 15/1/22.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 15/1/22.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

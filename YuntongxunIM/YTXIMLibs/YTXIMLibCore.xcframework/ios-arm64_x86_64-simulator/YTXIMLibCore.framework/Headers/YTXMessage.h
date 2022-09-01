@@ -47,6 +47,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @interface YTXMessage : NSObject
+@property (nonatomic, nullable, copy) NSString *uid;
+
+@property (nonatomic, nullable, copy) NSString *tag;
 
 @property (nonatomic, nullable, copy) NSString *clientMsgId;
 
@@ -171,20 +174,25 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
+@interface YTXTypingMessage : NSObject
+@property (nonatomic, copy) NSString* conversationId;
+@property (nonatomic, copy) NSString* tips;
+@end
 
 
 
 @interface YTXGetHistoryMessageResult : NSObject
 
+@property (nonatomic, copy) NSString* currentMinServerMsgId;
 /**
  @brief  是否还有更多
  */
 @property (nonatomic, assign) BOOL hasMore;
 
 /**
- @brief  是否发送者会话
+ @brief  list
  */
-@property (nonatomic, strong) NSArray* list;
+@property (nonatomic, strong) NSArray<YTXMessage *> * list;
 @end
 
 

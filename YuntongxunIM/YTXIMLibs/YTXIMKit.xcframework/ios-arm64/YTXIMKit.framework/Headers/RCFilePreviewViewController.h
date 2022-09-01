@@ -1,9 +1,9 @@
 //
 //  RCFilePreviewViewController.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by Jue on 16/7/29.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import "YTXMessageModel.h"

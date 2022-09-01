@@ -1,9 +1,9 @@
 //
 //  RCSightCollectionView.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by zhaobingdong on 2017/5/17.
-//  Copyright © 2017年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2017/5/17.
+//  Copyright © 2017年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

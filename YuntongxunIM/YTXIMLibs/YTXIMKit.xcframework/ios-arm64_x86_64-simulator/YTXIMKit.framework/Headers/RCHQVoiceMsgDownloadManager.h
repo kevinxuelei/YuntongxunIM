@@ -1,9 +1,9 @@
 //
 //  RCHQVoiceMsgDownloadManager.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by Zhaoqianyu on 2019/5/22.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

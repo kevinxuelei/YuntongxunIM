@@ -1,9 +1,9 @@
 //
 //  RCChatSessionInputBarControl.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by xugang on 15/2/12.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 15/2/12.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
 #import "RCEmojiBoardView.h"
@@ -11,6 +11,7 @@
 #import "RCTextView.h"
 #import <YTXIMLibCore/YTXIMLibCore.h>
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import "RCInputContainerView.h"
 #import "RCMenuContainerView.h"
 #define RC_ChatSessionInputBar_Height 49.5f
@@ -145,6 +146,12 @@
  */
 @property (nonatomic, strong) RCEmojiBoardView *emojiBoardView;
 
+
+/*!
+  @消息人员数据
+ */
+@property (nonatomic, strong) NSMutableArray *mentionedRangeInfoList;
+
 /*!
  View即将显示的回调
  */
@@ -187,7 +194,10 @@
  是否允许@功能
  */
 @property (nonatomic, assign) BOOL isMentionedEnabled;
-
+/*!
+ 是否是@消息
+ */
+@property (nonatomic, assign) BOOL isMentionedMessage;
 #pragma mark - 初始化
 
 /*!
@@ -455,9 +465,9 @@
  @param locationName   位置的名称
  @param mapScreenShot  位置在地图中的缩略图
  */
-//- (void)locationDidSelect:(CLLocationCoordinate2D)location
-//             locationName:(NSString *)locationName
-//            mapScreenShot:(UIImage *)mapScreenShot;
+- (void)locationDidSelect:(CLLocationCoordinate2D)location
+             locationName:(NSString *)locationName
+            mapScreenShot:(UIImage *)mapScreenShot;
 
 /*!
  相册选择图片列表,返回图片的 NSData

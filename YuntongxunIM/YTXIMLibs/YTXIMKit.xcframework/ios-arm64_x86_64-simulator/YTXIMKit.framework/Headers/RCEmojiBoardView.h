@@ -1,9 +1,9 @@
 //
 //  RCEmojiBoardView.h
-//  RongExtensionKit
+//  YTXIMKit
 //
 //  Created by Heq.Shinoda on 14-5-29.
-//  Copyright (c) 2014年 RongCloud. All rights reserved.
+//  Copyright (c) 2014年 yuntongxun. All rights reserved.
 //
 
 #import "RCEmoticonTabSource.h"

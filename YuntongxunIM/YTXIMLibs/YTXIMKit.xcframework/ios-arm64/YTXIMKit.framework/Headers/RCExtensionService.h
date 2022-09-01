@@ -1,9 +1,9 @@
 //
 //  RCExtensionService.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by 岑裕 on 2016/10/9.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2016/10/9.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import "RCChatSessionInputBarControl.h"

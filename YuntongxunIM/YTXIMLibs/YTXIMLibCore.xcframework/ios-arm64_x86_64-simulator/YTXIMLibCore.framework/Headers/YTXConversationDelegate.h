@@ -20,7 +20,6 @@
  */
 - (void)onConversationInfoChanged:(NSArray <YTXConversation *> *_Nonnull)conversations;
 - (void)onHasReadCountChanged:(NSInteger)readCount;
-- (void)onNewConversation:(NSArray <YTXConversation *> *_Nonnull)conversationList;
 - (void)onSyncServerFailed;
 - (void)onSyncServerFinish;
 - (void)onSyncServerStart;
@@ -28,7 +27,7 @@
  * 会话未读总数变更通知
  */
 - (void)onTotalUnreadChanged:(NSInteger)totalUnreadCount;
-- (void)onTypingStatusChanged:(NSInteger)typingStatus;
+- (void)onTypingStatusChanged:(YTXTypingMessage*_Nullable)msgTip;
 
 @end
 

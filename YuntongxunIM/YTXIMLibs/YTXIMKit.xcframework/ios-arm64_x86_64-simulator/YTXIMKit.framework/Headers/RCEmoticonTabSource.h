@@ -1,9 +1,9 @@
 //
 //  RCEmoticonTabSource.h
-//  RongExtensionKit
+//  YTXIMKit
 //
 //  Created by litao on 16/9/13.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

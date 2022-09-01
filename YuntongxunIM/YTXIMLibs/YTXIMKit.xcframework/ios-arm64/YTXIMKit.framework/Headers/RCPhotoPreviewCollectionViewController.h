@@ -1,9 +1,9 @@
 //
 //  RCPhotoPreviewCollectionViewController.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by 张改红 on 16/3/17.
-//  Copyright © 2016年 张改红. All rights reserved.
+//  Created by dongxuelei on 16/3/17.
+//  Copyright © 2016年 dongxuelei. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

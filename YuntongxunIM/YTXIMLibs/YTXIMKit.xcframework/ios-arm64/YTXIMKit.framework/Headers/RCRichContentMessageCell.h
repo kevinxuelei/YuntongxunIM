@@ -1,12 +1,12 @@
 //
 //  RCRichContentMessageCell.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by xugang on 15/2/2.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 15/2/2.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
-#import "RCAttributedLabel.h"
+#import "YTXAttributedLabel.h"
 #import "YTXMessageCell.h"
 #import "YTXIMKitInnerHeader.h"
 /*!
@@ -22,11 +22,11 @@
 /*!
  文本内容显示的Label
  */
-@property (nonatomic, strong) RCAttributedLabel *digestLabel;
+@property (nonatomic, strong) YTXAttributedLabel *digestLabel;
 
 /*!
  标题显示的Label
  */
-@property (nonatomic, strong) RCAttributedLabel *titleLabel;
+@property (nonatomic, strong) YTXAttributedLabel *titleLabel;
 
 @end

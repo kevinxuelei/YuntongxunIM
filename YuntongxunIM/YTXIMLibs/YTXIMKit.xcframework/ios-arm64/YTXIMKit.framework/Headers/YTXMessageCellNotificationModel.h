@@ -1,9 +1,9 @@
 //
 //  YTXMessageCellNotificationModel.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by xugang on 15/1/29.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 15/1/29.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -29,7 +29,7 @@ UIKIT_EXTERN NSString *const CONVERSATION_CELL_STATUS_SEND_READCOUNT; //已读�
 /*!
  消息ID
  */
-@property (nonatomic) long messageId;
+@property (nonatomic,copy) NSString *messageId;
 
 /*!
  更新的状态名
@@ -41,4 +41,5 @@ UIKIT_EXTERN NSString *const CONVERSATION_CELL_STATUS_SEND_READCOUNT; //已读�
  */
 @property (nonatomic) NSInteger progress;
 
+@property (strong, nonatomic) id param;
 @end

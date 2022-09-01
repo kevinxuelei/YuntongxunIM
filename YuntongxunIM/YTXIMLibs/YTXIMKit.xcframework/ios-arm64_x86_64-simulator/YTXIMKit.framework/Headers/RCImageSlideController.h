@@ -1,13 +1,13 @@
 //
 //  RCImageSlideController.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by liulin on 16/5/18.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 16/5/18.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import "YTXBaseViewController.h"
-#import "RCImageMessageProgressView.h"
+#import "YTXImageMessageProgressView.h"
 #import <UIKit/UIKit.h>
 @class YTXMessageModel;
 

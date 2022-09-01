@@ -1,9 +1,9 @@
 //
 //  RCCombineMessagePreviewViewController.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by liyan on 2019/8/9.
-//  Copyright © 2019 RongCloud. All rights reserved.
+//  Copyright © 2019 yuntongxun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

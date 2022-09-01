@@ -1,9 +1,9 @@
 //
 //  YTXMessageBasedCell.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by xugang on 15/1/28.
-//  Copyright (c) 2015年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 15/1/28.
+//  Copyright (c) 2015年 yuntongxun. All rights reserved.
 //
 
 #import "YTXMessageCellDelegate.h"
@@ -30,7 +30,7 @@ UIKIT_EXTERN NSString *const KNotificationMessageBaseCellUpdateSendingStatus;
 
  @discussion 消息Cell基类包含了所有消息Cell的必要信息。
  消息Cell基类针对用户头像是否显示，主要可以分为两类的：
- 一是提醒类的Cell，不显示用户信息，如：RCTipMessageCell和RCUnknownMessageCell；
+ 一是提醒类的Cell，不显示用户信息，如：YTXTipMessageCell和YTXUnknownMessageCell；
  二是展示类的Cell，显示用户信息和内容，如：YTXMessageCell以及YTXMessageCell的子类。
  */
 @interface YTXMessageBasedCell : UICollectionViewCell

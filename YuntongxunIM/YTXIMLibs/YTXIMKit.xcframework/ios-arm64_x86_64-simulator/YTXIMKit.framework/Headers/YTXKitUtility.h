@@ -2,14 +2,14 @@
 //  YTXKitUtility.h
 //  iOS-IMKit
 //
-//  Created by xugang on 7/7/14.
+//  Created by dongxuelei on 7/7/14.
 //  Copyright (c) 2014 Heq.Shinoda. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 //#import <YTXIMLibCore/YTXIMLibCore.h>
 #import <UIKit/UIKit.h>
-//#import "YTXMessageModel.h"
+#import "YTXMessageModel.h"
 
 @class YTXConversationModel;
 
@@ -76,10 +76,10 @@
  @discussion SDK默认的消息有内置的处理，自定义消息会调用 YTXMessageContent 中 YTXMessageContentView 协议的
  conversationDigest 获取消息摘要。
 */
-//+ (NSString *)formatMessage:(YTXMessageContent *)messageContent
-//                   targetId:(NSString *)targetId
-//           conversationType:(YTXConversationType)conversationType
-//               isAllMessage:(BOOL)isAllMessage;
++ (NSString *)formatMessage:(YTXMessageModel *)messageContent
+                   targetId:(NSString *)targetId
+           conversationType:(YTXConversationType)conversationType
+               isAllMessage:(BOOL)isAllMessage;
 
 /*!
  获取消息通知时需展示的内容摘要

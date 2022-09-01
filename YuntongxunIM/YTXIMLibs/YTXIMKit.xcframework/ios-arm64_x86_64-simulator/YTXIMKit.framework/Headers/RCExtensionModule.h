@@ -1,9 +1,9 @@
 //
 //  RCExtensionModule.h
-//  RongExtensionKit
+//  YTXIMKit
 //
-//  Created by 岑裕 on 16/7/2.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Created by dongxuelei on 16/7/2.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import "RCChatSessionInputBarControl.h"
@@ -13,7 +13,7 @@
 #import <YTXIMLibCore/YTXIMLibCore.h>
 
 /*!
- RongCloud IM扩展模块协议
+ yuntongxun IM扩展模块协议
  */
 @protocol RCExtensionModule <NSObject>
 

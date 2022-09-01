@@ -1,9 +1,9 @@
 //
 //  RCEmoticonPackage.h
-//  RongExtensionKit
+//  YTXIMKit
 //
 //  Created by 杜立召 on 16/7/27.
-//  Copyright © 2016年 RongCloud. All rights reserved.
+//  Copyright © 2016年 yuntongxun. All rights reserved.
 //
 
 #import "RCEmojiBoardView.h"

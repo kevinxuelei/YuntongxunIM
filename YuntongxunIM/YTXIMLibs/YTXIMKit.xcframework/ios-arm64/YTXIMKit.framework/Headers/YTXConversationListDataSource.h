@@ -1,9 +1,9 @@
 //
 //  YTXConversationListDataSource.h
-//  RongIMKit
+//  YTXIMKit
 //
-//  Created by Sin on 2020/5/26.
-//  Copyright © 2020 RongCloud. All rights reserved.
+//  Created by dongxuelei on 2020/5/26.
+//  Copyright © 2020 yuntongxun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,9 +1,9 @@
 //
 //  RCGIFPreviewViewController.h
-//  RongIMKit
+//  YTXIMKit
 //
 //  Created by liyan on 2018/12/24.
-//  Copyright © 2018年 RongCloud. All rights reserved.
+//  Copyright © 2018年 yuntongxun. All rights reserved.
 //
 
 #import "YTXBaseViewController.h"
