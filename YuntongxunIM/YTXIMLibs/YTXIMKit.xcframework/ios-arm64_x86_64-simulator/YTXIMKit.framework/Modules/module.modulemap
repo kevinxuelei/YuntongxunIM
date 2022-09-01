@@ -1,0 +1,6 @@
+framework module YTXIMKit {
+  umbrella header "YTXIMKit.h"
+
+  export *
+  module * { export * }
+}

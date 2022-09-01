@@ -1,0 +1,6 @@
+framework module YTXIMLibCore {
+  umbrella header "YTXIMLibCore.h"
+
+  export *
+  module * { export * }
+}

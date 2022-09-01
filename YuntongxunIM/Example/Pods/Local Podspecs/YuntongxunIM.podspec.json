@@ -1,0 +1,43 @@
+{
+  "name": "YuntongxunIM",
+  "version": "0.1.0",
+  "summary": "A short description of YuntongxunIM.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kevinxuelei/YuntongxunIM",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kevinxuelei": "kevinxuelei@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kevinxuelei/YuntongxunIM.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "YuntongxunIMLibCore",
+      "vendored_frameworks": [
+        "YTXIMLibs/YTXIMLibCore.xcframework"
+      ]
+    },
+    {
+      "name": "YuntongxunIMKit",
+      "vendored_frameworks": [
+        "YTXIMLibs/YTXIMKit.xcframework"
+      ],
+      "resources": [
+        "YTXIMLibs/YuntongxunIMKit.bundle"
+      ],
+      "dependencies": {
+        "YuntongxunIM/YuntongxunIMLibCore": [
+
+        ]
+      }
+    }
+  ]
+}
