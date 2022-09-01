@@ -17,12 +17,6 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
-  "YTXIMKit.xcframework/ios-arm64")
-    echo ""
-    ;;
-  "YTXIMKit.xcframework/ios-arm64_x86_64-simulator")
-    echo "simulator"
-    ;;
   "YTXIMLibCore.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
@@ -35,12 +29,6 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
-  "YTXIMKit.xcframework/ios-arm64")
-    echo "arm64"
-    ;;
-  "YTXIMKit.xcframework/ios-arm64_x86_64-simulator")
-    echo "arm64 x86_64"
-    ;;
   "YTXIMLibCore.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
@@ -129,6 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../YTXIMLibs/YTXIMKit.xcframework" "YuntongxunIM/YuntongxunIMKit" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../YTXIMLibs/YTXIMLibCore.xcframework" "YuntongxunIM/YuntongxunIMLibCore" "framework" "ios-arm64_x86_64-simulator" "ios-arm64"
 

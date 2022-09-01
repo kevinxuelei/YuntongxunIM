@@ -207,8 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A9F53314D7429D9B15BA3C32 /* [CP] Embed Pods Frameworks */,
-				543E94647FC9F0F71C7B45C6 /* [CP] Copy Pods Resources */,
+				871452678DA4F91380D4B687 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -321,37 +320,17 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		543E94647FC9F0F71C7B45C6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YuntongxunIM_Example/Pods-YuntongxunIM_Example-resources.sh",
-				"${PODS_ROOT}/../../YTXIMLibs/YuntongxunIMKit.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YuntongxunIMKit.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YuntongxunIM_Example/Pods-YuntongxunIM_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9F53314D7429D9B15BA3C32 /* [CP] Embed Pods Frameworks */ = {
+		871452678DA4F91380D4B687 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YuntongxunIM_Example/Pods-YuntongxunIM_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YuntongxunIM/YuntongxunIMKit/YTXIMKit.framework/YTXIMKit",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YuntongxunIM/YuntongxunIMLibCore/YTXIMLibCore.framework/YTXIMLibCore",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTXIMKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTXIMLibCore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,18 +25,12 @@
   "subspecs": [
     {
       "name": "YuntongxunIMLibCore",
-      "vendored_frameworks": [
-        "YTXIMLibs/YTXIMLibCore.xcframework"
-      ]
+      "vendored_frameworks": "YTXIMLibs/YTXIMLibCore.xcframework"
     },
     {
       "name": "YuntongxunIMKit",
-      "vendored_frameworks": [
-        "YTXIMLibs/YTXIMKit.xcframework"
-      ],
-      "resources": [
-        "YTXIMLibs/YuntongxunIMKit.bundle"
-      ],
+      "vendored_frameworks": "YTXIMLibs/YTXIMKit.xcframework",
+      "resources": "YTXIMLibs/YuntongxunIMKit.bundle",
       "dependencies": {
         "YuntongxunIM/YuntongxunIMLibCore": [
 

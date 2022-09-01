@@ -33,12 +33,12 @@ TODO: Add long description of the pod here.
 #  s.source_files = 'YuntongxunIM/Classes/**/*'
 
   s.subspec 'YuntongxunIMLibCore' do |m|
-     m.vendored_frameworks = ['YTXIMLibs/YTXIMLibCore.xcframework']
+     m.vendored_frameworks = 'YTXIMLibs/YTXIMLibCore.xcframework'
     end
 
   s.subspec 'YuntongxunIMKit' do |l|
-      l.vendored_frameworks = ['YTXIMLibs/YTXIMKit.xcframework']
-      l.resources = ['YTXIMLibs/YuntongxunIMKit.bundle']
+      l.vendored_frameworks = 'YTXIMLibs/YTXIMKit.xcframework'
+      l.resources = 'YTXIMLibs/YuntongxunIMKit.bundle'
       l.dependency 'YuntongxunIM/YuntongxunIMLibCore'
     end
 

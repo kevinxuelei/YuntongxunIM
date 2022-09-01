@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		62BF9EEA780C111E86D5357DEA949A36 /* YuntongxunIM */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2397472272AF31898EB0B363DC1112C9 /* Build configuration list for PBXAggregateTarget "YuntongxunIM" */;
+			buildConfigurationList = 9E9D3157A851EB00E470F6F4FF48D25E /* Build configuration list for PBXAggregateTarget "YuntongxunIM" */;
 			buildPhases = (
-				07399D68C258F4AE14EE6BADD73C9521 /* [CP] Copy XCFrameworks */,
+				A7B3E5AC750F1D35AD3B0411AEF0F7A2 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -20,23 +20,23 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		252FCC25D2FDD317F73062DA9B01D08C /* Pods-YuntongxunIM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2EC3468A9C27715F6909C722C820A /* Pods-YuntongxunIM_Example-dummy.m */; };
-		77514CA2EC95B0FDC2F6439B4806085D /* Pods-YuntongxunIM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D1335338DC07C943CFDFF0F680C0D3 /* Pods-YuntongxunIM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		252FCC25D2FDD317F73062DA9B01D08C /* Pods-YuntongxunIM_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B1DAB9780471038F4BA265E182C31E /* Pods-YuntongxunIM_Example-dummy.m */; };
+		77514CA2EC95B0FDC2F6439B4806085D /* Pods-YuntongxunIM_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1511F8FB4036C3411DE926D6F5511510 /* Pods-YuntongxunIM_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84B89384909E47FA5CF3F4D6AE993BB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		97403BC03DFF88EFEEFB0F112BA25D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B71CDB29E797763034796F47A052EA41 /* Pods-YuntongxunIM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7098644CCC6A915848B3F081D060F2 /* Pods-YuntongxunIM_Tests-dummy.m */; };
-		C365DE6D36714CFA0E62BED08028F6F4 /* Pods-YuntongxunIM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4C98A31E427CDD277015C2644221A3 /* Pods-YuntongxunIM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71CDB29E797763034796F47A052EA41 /* Pods-YuntongxunIM_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CDBD962B9124C06B9F78E3E120A27D /* Pods-YuntongxunIM_Tests-dummy.m */; };
+		C365DE6D36714CFA0E62BED08028F6F4 /* Pods-YuntongxunIM_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA34C621D2F414D9DFF30022F7512C60 /* Pods-YuntongxunIM_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0509339781E4F190DCB7FEC5A801B988 /* PBXContainerItemProxy */ = {
+		4A8F007AE4F86FE624BC19AC2C29FCC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6DFCA51EB7C56FB51B6D24836E94E1AB;
 			remoteInfo = "Pods-YuntongxunIM_Example";
 		};
-		412F42A5737A42218A840AE4421DEFEE /* PBXContainerItemProxy */ = {
+		EE16400BD6B5C5993966E9C87E3CBE36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,37 +46,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F2EC3468A9C27715F6909C722C820A /* Pods-YuntongxunIM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuntongxunIM_Example-dummy.m"; sourceTree = "<group>"; };
-		0F90FA808A248349F004E723053F3240 /* Pods-YuntongxunIM_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Tests-Info.plist"; sourceTree = "<group>"; };
-		1C70522433AA7F366E5C1C55C1C75AA7 /* Pods-YuntongxunIM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B9733D4216450003548BDC21F05F2B0 /* Pods-YuntongxunIM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F8608EB43D5670EAA848BEFF6786300 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		03A640F73E038BF20B5468CE78AD0B0A /* Pods-YuntongxunIM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuntongxunIM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11CDBD962B9124C06B9F78E3E120A27D /* Pods-YuntongxunIM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuntongxunIM_Tests-dummy.m"; sourceTree = "<group>"; };
+		1511F8FB4036C3411DE926D6F5511510 /* Pods-YuntongxunIM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuntongxunIM_Example-umbrella.h"; sourceTree = "<group>"; };
+		1853BA8E6CAB7965DDF5B1B2FCB95D8E /* YuntongxunIM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YuntongxunIM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EC4BCDDCACFB4CE3F07B740AB1F1379 /* Pods-YuntongxunIM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2DD6B44C13EDCE0E192489F804C39FD8 /* Pods-YuntongxunIM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuntongxunIM_Tests.modulemap"; sourceTree = "<group>"; };
 		326708A26624546855495110AB4070E8 /* Pods-YuntongxunIM_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YuntongxunIM_Tests"; path = Pods_YuntongxunIM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		377E23F1B161DF0647E2597BF976D297 /* Pods-YuntongxunIM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuntongxunIM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3B0F14B17C2D823E0BF5274219EC1DEE /* Pods-YuntongxunIM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuntongxunIM_Tests.modulemap"; sourceTree = "<group>"; };
+		3C77D7140D3C2E1212159586B8EDB2F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3CD967ABF1A68AD654ED6A5C90761EE1 /* Pods-YuntongxunIM_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YuntongxunIM_Example"; path = Pods_YuntongxunIM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DDDEC76181D2FDB9FBB213EA9E2DE8F /* Pods-YuntongxunIM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuntongxunIM_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4F7098644CCC6A915848B3F081D060F2 /* Pods-YuntongxunIM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuntongxunIM_Tests-dummy.m"; sourceTree = "<group>"; };
-		50591C2625DB0FFD47AA2CAF81735624 /* YTXIMKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YTXIMKit.xcframework; path = YTXIMLibs/YTXIMKit.xcframework; sourceTree = "<group>"; };
+		402C48A25EEA1574B95777D79D9F7387 /* YuntongxunIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuntongxunIM.release.xcconfig; sourceTree = "<group>"; };
+		486B78D73F22EB7B1750A6C2E934D313 /* Pods-YuntongxunIM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Example.release.xcconfig"; sourceTree = "<group>"; };
+		604E4DEBE5401B9907D67C7F4B55B2F3 /* Pods-YuntongxunIM_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		63214D807835BBA7E036FE22C8DD7993 /* Pods-YuntongxunIM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		686BAB8FC0925B18D789C91D80A13343 /* Pods-YuntongxunIM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		69CF7B36E470E887A72612A82295EE12 /* Pods-YuntongxunIM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7810F0EF229F7FEA2A672534A736FAB7 /* Pods-YuntongxunIM_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		79D1335338DC07C943CFDFF0F680C0D3 /* Pods-YuntongxunIM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuntongxunIM_Example-umbrella.h"; sourceTree = "<group>"; };
-		819C89F73D657ED0C239390763C10E21 /* YTXIMLibCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YTXIMLibCore.xcframework; path = YTXIMLibs/YTXIMLibCore.xcframework; sourceTree = "<group>"; };
-		81ADE31A27C377A937D1456C98BA1BD9 /* Pods-YuntongxunIM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuntongxunIM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		96CCA23DA483F182E5F2FD6CC99DEA1A /* YuntongxunIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuntongxunIM.release.xcconfig; sourceTree = "<group>"; };
+		76BA57C172FE1AEDFB6FD6F38364C182 /* Pods-YuntongxunIM_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Example-Info.plist"; sourceTree = "<group>"; };
+		8236256BB627150F7E352964E5C36BB6 /* Pods-YuntongxunIM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuntongxunIM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96A243E817353B98354F27773C45CEBB /* YuntongxunIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuntongxunIM.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DCC16BE544C5E337FB8A1F2D2C230D1 /* YuntongxunIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuntongxunIM.debug.xcconfig; sourceTree = "<group>"; };
-		9F4C98A31E427CDD277015C2644221A3 /* Pods-YuntongxunIM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuntongxunIM_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A5B99EAD5847D568AADD84F5769E1D1A /* Pods-YuntongxunIM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B70144BC52222F75A1CFF7787A7E255E /* YuntongxunIMKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YuntongxunIMKit.bundle; path = YTXIMLibs/YuntongxunIMKit.bundle; sourceTree = "<group>"; };
-		BD1B39CDAD6701B81698E7272DD3F249 /* YuntongxunIM-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "YuntongxunIM-xcframeworks.sh"; sourceTree = "<group>"; };
-		C1F0E53889435C177CF336B4C6F85E8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		C3153DED00AB6FBC9663462863E63EAC /* Pods-YuntongxunIM_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Example-Info.plist"; sourceTree = "<group>"; };
-		C99D748B7D54A6748FA555A7F5423E0A /* Pods-YuntongxunIM_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuntongxunIM_Example-resources.sh"; sourceTree = "<group>"; };
-		CDF763A2065C30E040C4967D03073587 /* Pods-YuntongxunIM_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1DFAF8FB6992463B20CB7CA4B57F6FB /* Pods-YuntongxunIM_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA84BD440E1B2C1637047EA42A7BFF04 /* Pods-YuntongxunIM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuntongxunIM_Example.modulemap"; sourceTree = "<group>"; };
-		E89BEED01FB574E68FC630CD5559C5D7 /* YuntongxunIM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YuntongxunIM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9B1DAB9780471038F4BA265E182C31E /* Pods-YuntongxunIM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuntongxunIM_Example-dummy.m"; sourceTree = "<group>"; };
+		BED19DD48B63DCE4F969A1A44557EBF8 /* Pods-YuntongxunIM_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Tests-Info.plist"; sourceTree = "<group>"; };
+		D10BE2B54E9238A27840092D97E20DA6 /* YuntongxunIM-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "YuntongxunIM-xcframeworks.sh"; sourceTree = "<group>"; };
+		D197D9E0ED8BFBC5880873DB49B20FE8 /* Pods-YuntongxunIM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuntongxunIM_Example.modulemap"; sourceTree = "<group>"; };
+		DA34C621D2F414D9DFF30022F7512C60 /* Pods-YuntongxunIM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuntongxunIM_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E07A6DBB9312582F29D7798A4FB4319B /* Pods-YuntongxunIM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuntongxunIM_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F7AFB72407E14ED6F159D0E73473301F /* YTXIMLibCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YTXIMLibCore.xcframework; path = YTXIMLibs/YTXIMLibCore.xcframework; sourceTree = "<group>"; };
+		FB63EE9F07AC8AAD0D116EAC76C5FE1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +96,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B62D65316CAB9E775A12792F61AFD8 /* YuntongxunIMLibCore */ = {
+		1AAE38690547F579EBE710D48FC42900 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD357E188B93DE587FE781FDA10FAE1C /* Frameworks */,
+				F7AFB72407E14ED6F159D0E73473301F /* YTXIMLibCore.xcframework */,
 			);
-			name = YuntongxunIMLibCore;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D5B5DF55331CE6604DD78EC6A672B0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10BE2B54E9238A27840092D97E20DA6 /* YuntongxunIM-xcframeworks.sh */,
+				96A243E817353B98354F27773C45CEBB /* YuntongxunIM.debug.xcconfig */,
+				402C48A25EEA1574B95777D79D9F7387 /* YuntongxunIM.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YuntongxunIM";
+			sourceTree = "<group>";
+		};
+		3F2E372CFFC258E3B332C38A55B72765 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				430DC4A216CE83B5B241FF2750C99C39 /* YuntongxunIM */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4049EF4A88E66DE5F437F162A33F8884 /* Products */ = {
@@ -116,6 +132,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		430DC4A216CE83B5B241FF2750C99C39 /* YuntongxunIM */ = {
+			isa = PBXGroup;
+			children = (
+				C9E45524839637304507C2F325047706 /* Pod */,
+				3D5B5DF55331CE6604DD78EC6A672B0A /* Support Files */,
+				DC9B8007C0886B6868BE4B1D9345F2F1 /* YuntongxunIMLibCore */,
+			);
+			name = YuntongxunIM;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,106 +151,50 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9CF238B65715131DF388A0C0B422A1EE /* Pods-YuntongxunIM_Example */ = {
+		6ABAD558732BC147D870C7EFAE349237 /* Pods-YuntongxunIM_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DA84BD440E1B2C1637047EA42A7BFF04 /* Pods-YuntongxunIM_Example.modulemap */,
-				377E23F1B161DF0647E2597BF976D297 /* Pods-YuntongxunIM_Example-acknowledgements.markdown */,
-				2B9733D4216450003548BDC21F05F2B0 /* Pods-YuntongxunIM_Example-acknowledgements.plist */,
-				04F2EC3468A9C27715F6909C722C820A /* Pods-YuntongxunIM_Example-dummy.m */,
-				4DDDEC76181D2FDB9FBB213EA9E2DE8F /* Pods-YuntongxunIM_Example-frameworks.sh */,
-				C3153DED00AB6FBC9663462863E63EAC /* Pods-YuntongxunIM_Example-Info.plist */,
-				C99D748B7D54A6748FA555A7F5423E0A /* Pods-YuntongxunIM_Example-resources.sh */,
-				79D1335338DC07C943CFDFF0F680C0D3 /* Pods-YuntongxunIM_Example-umbrella.h */,
-				A5B99EAD5847D568AADD84F5769E1D1A /* Pods-YuntongxunIM_Example.debug.xcconfig */,
-				1C70522433AA7F366E5C1C55C1C75AA7 /* Pods-YuntongxunIM_Example.release.xcconfig */,
-			);
-			name = "Pods-YuntongxunIM_Example";
-			path = "Target Support Files/Pods-YuntongxunIM_Example";
-			sourceTree = "<group>";
-		};
-		A0F8C87F185DDBC8D8BBCD4C733E72A0 /* Pods-YuntongxunIM_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3B0F14B17C2D823E0BF5274219EC1DEE /* Pods-YuntongxunIM_Tests.modulemap */,
-				81ADE31A27C377A937D1456C98BA1BD9 /* Pods-YuntongxunIM_Tests-acknowledgements.markdown */,
-				D1DFAF8FB6992463B20CB7CA4B57F6FB /* Pods-YuntongxunIM_Tests-acknowledgements.plist */,
-				4F7098644CCC6A915848B3F081D060F2 /* Pods-YuntongxunIM_Tests-dummy.m */,
-				0F90FA808A248349F004E723053F3240 /* Pods-YuntongxunIM_Tests-Info.plist */,
-				9F4C98A31E427CDD277015C2644221A3 /* Pods-YuntongxunIM_Tests-umbrella.h */,
-				CDF763A2065C30E040C4967D03073587 /* Pods-YuntongxunIM_Tests.debug.xcconfig */,
-				7810F0EF229F7FEA2A672534A736FAB7 /* Pods-YuntongxunIM_Tests.release.xcconfig */,
+				2DD6B44C13EDCE0E192489F804C39FD8 /* Pods-YuntongxunIM_Tests.modulemap */,
+				8236256BB627150F7E352964E5C36BB6 /* Pods-YuntongxunIM_Tests-acknowledgements.markdown */,
+				686BAB8FC0925B18D789C91D80A13343 /* Pods-YuntongxunIM_Tests-acknowledgements.plist */,
+				11CDBD962B9124C06B9F78E3E120A27D /* Pods-YuntongxunIM_Tests-dummy.m */,
+				BED19DD48B63DCE4F969A1A44557EBF8 /* Pods-YuntongxunIM_Tests-Info.plist */,
+				DA34C621D2F414D9DFF30022F7512C60 /* Pods-YuntongxunIM_Tests-umbrella.h */,
+				63214D807835BBA7E036FE22C8DD7993 /* Pods-YuntongxunIM_Tests.debug.xcconfig */,
+				69CF7B36E470E887A72612A82295EE12 /* Pods-YuntongxunIM_Tests.release.xcconfig */,
 			);
 			name = "Pods-YuntongxunIM_Tests";
 			path = "Target Support Files/Pods-YuntongxunIM_Tests";
 			sourceTree = "<group>";
 		};
-		B16B64C497E39205348443330B05BE35 /* Frameworks */ = {
+		9160F501DE7A4F02FBB083147336372B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				50591C2625DB0FFD47AA2CAF81735624 /* YTXIMKit.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B3F2FB9CA6FFE2D8F579AC1D1D07A4B5 /* YuntongxunIM */ = {
-			isa = PBXGroup;
-			children = (
-				F50990D9F7348B416B9D6D6C44BD8E6E /* Pod */,
-				BE7E243431AA345F915A5E78579717DF /* Support Files */,
-				D05CCAB4935C1BD03C090F0E2A891F3D /* YuntongxunIMKit */,
-				13B62D65316CAB9E775A12792F61AFD8 /* YuntongxunIMLibCore */,
-			);
-			name = YuntongxunIM;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B80340BE4C2AFE4B972292309B01B0A2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9CF238B65715131DF388A0C0B422A1EE /* Pods-YuntongxunIM_Example */,
-				A0F8C87F185DDBC8D8BBCD4C733E72A0 /* Pods-YuntongxunIM_Tests */,
+				E5FFC6E58B35B05A3EC6D27055624CFE /* Pods-YuntongxunIM_Example */,
+				6ABAD558732BC147D870C7EFAE349237 /* Pods-YuntongxunIM_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BE7E243431AA345F915A5E78579717DF /* Support Files */ = {
+		C9E45524839637304507C2F325047706 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BD1B39CDAD6701B81698E7272DD3F249 /* YuntongxunIM-xcframeworks.sh */,
-				9DCC16BE544C5E337FB8A1F2D2C230D1 /* YuntongxunIM.debug.xcconfig */,
-				96CCA23DA483F182E5F2FD6CC99DEA1A /* YuntongxunIM.release.xcconfig */,
+				FB63EE9F07AC8AAD0D116EAC76C5FE1C /* LICENSE */,
+				3C77D7140D3C2E1212159586B8EDB2F8 /* README.md */,
+				1853BA8E6CAB7965DDF5B1B2FCB95D8E /* YuntongxunIM.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YuntongxunIM";
-			sourceTree = "<group>";
-		};
-		C05BB3DAE25548CFA918B99D203A18F0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B3F2FB9CA6FFE2D8F579AC1D1D07A4B5 /* YuntongxunIM */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C05BB3DAE25548CFA918B99D203A18F0 /* Development Pods */,
+				3F2E372CFFC258E3B332C38A55B72765 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4049EF4A88E66DE5F437F162A33F8884 /* Products */,
-				B80340BE4C2AFE4B972292309B01B0A2 /* Targets Support Files */,
+				9160F501DE7A4F02FBB083147336372B /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D05CCAB4935C1BD03C090F0E2A891F3D /* YuntongxunIMKit */ = {
-			isa = PBXGroup;
-			children = (
-				B70144BC52222F75A1CFF7787A7E255E /* YuntongxunIMKit.bundle */,
-				B16B64C497E39205348443330B05BE35 /* Frameworks */,
-			);
-			name = YuntongxunIMKit;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -234,22 +205,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD357E188B93DE587FE781FDA10FAE1C /* Frameworks */ = {
+		DC9B8007C0886B6868BE4B1D9345F2F1 /* YuntongxunIMLibCore */ = {
 			isa = PBXGroup;
 			children = (
-				819C89F73D657ED0C239390763C10E21 /* YTXIMLibCore.xcframework */,
+				1AAE38690547F579EBE710D48FC42900 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = YuntongxunIMLibCore;
 			sourceTree = "<group>";
 		};
-		F50990D9F7348B416B9D6D6C44BD8E6E /* Pod */ = {
+		E5FFC6E58B35B05A3EC6D27055624CFE /* Pods-YuntongxunIM_Example */ = {
 			isa = PBXGroup;
 			children = (
-				2F8608EB43D5670EAA848BEFF6786300 /* LICENSE */,
-				C1F0E53889435C177CF336B4C6F85E8B /* README.md */,
-				E89BEED01FB574E68FC630CD5559C5D7 /* YuntongxunIM.podspec */,
+				D197D9E0ED8BFBC5880873DB49B20FE8 /* Pods-YuntongxunIM_Example.modulemap */,
+				03A640F73E038BF20B5468CE78AD0B0A /* Pods-YuntongxunIM_Example-acknowledgements.markdown */,
+				604E4DEBE5401B9907D67C7F4B55B2F3 /* Pods-YuntongxunIM_Example-acknowledgements.plist */,
+				B9B1DAB9780471038F4BA265E182C31E /* Pods-YuntongxunIM_Example-dummy.m */,
+				E07A6DBB9312582F29D7798A4FB4319B /* Pods-YuntongxunIM_Example-frameworks.sh */,
+				76BA57C172FE1AEDFB6FD6F38364C182 /* Pods-YuntongxunIM_Example-Info.plist */,
+				1511F8FB4036C3411DE926D6F5511510 /* Pods-YuntongxunIM_Example-umbrella.h */,
+				1EC4BCDDCACFB4CE3F07B740AB1F1379 /* Pods-YuntongxunIM_Example.debug.xcconfig */,
+				486B78D73F22EB7B1750A6C2E934D313 /* Pods-YuntongxunIM_Example.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Pods-YuntongxunIM_Example";
+			path = "Target Support Files/Pods-YuntongxunIM_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +264,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				13EAF0D459D3A76A24DA9E729C776878 /* PBXTargetDependency */,
+				C0B0D4F27E47BA3461FF33C4D3682588 /* PBXTargetDependency */,
 			);
 			name = "Pods-YuntongxunIM_Tests";
 			productName = Pods_YuntongxunIM_Tests;
@@ -305,7 +283,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				57DA80F784B6F2A06930C65265D122DA /* PBXTargetDependency */,
+				BA51E91F3D32C6C537B453F9F4D7049B /* PBXTargetDependency */,
 			);
 			name = "Pods-YuntongxunIM_Example";
 			productName = Pods_YuntongxunIM_Example;
@@ -359,19 +337,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07399D68C258F4AE14EE6BADD73C9521 /* [CP] Copy XCFrameworks */ = {
+		A7B3E5AC750F1D35AD3B0411AEF0F7A2 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/YuntongxunIM/YuntongxunIM-xcframeworks.sh",
-				"${PODS_ROOT}/../../YTXIMLibs/YTXIMKit.xcframework",
 				"${PODS_ROOT}/../../YTXIMLibs/YTXIMLibCore.xcframework",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YuntongxunIM/YuntongxunIMKit/YTXIMKit.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/YuntongxunIM/YuntongxunIMLibCore/YTXIMLibCore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,39 +377,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13EAF0D459D3A76A24DA9E729C776878 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-YuntongxunIM_Example";
-			target = 6DFCA51EB7C56FB51B6D24836E94E1AB /* Pods-YuntongxunIM_Example */;
-			targetProxy = 0509339781E4F190DCB7FEC5A801B988 /* PBXContainerItemProxy */;
-		};
-		57DA80F784B6F2A06930C65265D122DA /* PBXTargetDependency */ = {
+		BA51E91F3D32C6C537B453F9F4D7049B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YuntongxunIM;
 			target = 62BF9EEA780C111E86D5357DEA949A36 /* YuntongxunIM */;
-			targetProxy = 412F42A5737A42218A840AE4421DEFEE /* PBXContainerItemProxy */;
+			targetProxy = EE16400BD6B5C5993966E9C87E3CBE36 /* PBXContainerItemProxy */;
+		};
+		C0B0D4F27E47BA3461FF33C4D3682588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YuntongxunIM_Example";
+			target = 6DFCA51EB7C56FB51B6D24836E94E1AB /* Pods-YuntongxunIM_Example */;
+			targetProxy = 4A8F007AE4F86FE624BC19AC2C29FCC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4062FBC30613005ED3A3B9D87F76D988 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DCC16BE544C5E337FB8A1F2D2C230D1 /* YuntongxunIM.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		46A2F6E6D6BC813075A0BB8266BC245C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7810F0EF229F7FEA2A672534A736FAB7 /* Pods-YuntongxunIM_Tests.release.xcconfig */;
+			baseConfigurationReference = 69CF7B36E470E887A72612A82295EE12 /* Pods-YuntongxunIM_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -466,25 +427,9 @@
 			};
 			name = Release;
 		};
-		646D3E57A5AFF517525794FBF1FA05D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96CCA23DA483F182E5F2FD6CC99DEA1A /* YuntongxunIM.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		6CF43B65D7BF7ABC46CAE953C187CB0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C70522433AA7F366E5C1C55C1C75AA7 /* Pods-YuntongxunIM_Example.release.xcconfig */;
+			baseConfigurationReference = 486B78D73F22EB7B1750A6C2E934D313 /* Pods-YuntongxunIM_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -519,7 +464,7 @@
 		};
 		7FE9CEAE28A1B70B44182122EED192FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5B99EAD5847D568AADD84F5769E1D1A /* Pods-YuntongxunIM_Example.debug.xcconfig */;
+			baseConfigurationReference = 1EC4BCDDCACFB4CE3F07B740AB1F1379 /* Pods-YuntongxunIM_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -550,6 +495,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8E8C19512557003514D925571F652095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402C48A25EEA1574B95777D79D9F7387 /* YuntongxunIM.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -681,7 +642,7 @@
 		};
 		BC5DC03F1470AEEE6550F558EE1917EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDF763A2065C30E040C4967D03073587 /* Pods-YuntongxunIM_Tests.debug.xcconfig */;
+			baseConfigurationReference = 63214D807835BBA7E036FE22C8DD7993 /* Pods-YuntongxunIM_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -713,23 +674,38 @@
 			};
 			name = Debug;
 		};
+		E6DEC598C619E39BB2B47372C4DAAF9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A243E817353B98354F27773C45CEBB /* YuntongxunIM.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2397472272AF31898EB0B363DC1112C9 /* Build configuration list for PBXAggregateTarget "YuntongxunIM" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4062FBC30613005ED3A3B9D87F76D988 /* Debug */,
-				646D3E57A5AFF517525794FBF1FA05D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
 				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E9D3157A851EB00E470F6F4FF48D25E /* Build configuration list for PBXAggregateTarget "YuntongxunIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DEC598C619E39BB2B47372C4DAAF9F /* Debug */,
+				8E8C19512557003514D925571F652095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

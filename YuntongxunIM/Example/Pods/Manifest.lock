@@ -1,21 +1,16 @@
 PODS:
-  - YuntongxunIM (0.1.0):
-    - YuntongxunIM/YuntongxunIMKit (= 0.1.0)
-    - YuntongxunIM/YuntongxunIMLibCore (= 0.1.0)
-  - YuntongxunIM/YuntongxunIMKit (0.1.0):
-    - YuntongxunIM/YuntongxunIMLibCore
   - YuntongxunIM/YuntongxunIMLibCore (0.1.0)
 
 DEPENDENCIES:
-  - YuntongxunIM (from `../`)
+  - YuntongxunIM/YuntongxunIMLibCore (from `../`)
 
 EXTERNAL SOURCES:
   YuntongxunIM:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YuntongxunIM: 2a2b71b942d8acc071ae9df2dd2638d1c6cb762d
+  YuntongxunIM: 7a63bcf4f618cf3bb0fe31db27ec4a5f19bcead6
 
-PODFILE CHECKSUM: a46109cb02d22914a2afe8c0694434e9a82d97a8
+PODFILE CHECKSUM: 0b48ae091141d56b2e22ae8cb74fe1704aa21807
 
 COCOAPODS: 1.11.3
