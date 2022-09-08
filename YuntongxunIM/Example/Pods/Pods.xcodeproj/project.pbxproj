@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = YuntongxunIM;
+			productName = YuntongxunIM;
 		};
 /* End PBXAggregateTarget section */
 
@@ -49,11 +50,11 @@
 		03A640F73E038BF20B5468CE78AD0B0A /* Pods-YuntongxunIM_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuntongxunIM_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		11CDBD962B9124C06B9F78E3E120A27D /* Pods-YuntongxunIM_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuntongxunIM_Tests-dummy.m"; sourceTree = "<group>"; };
 		1511F8FB4036C3411DE926D6F5511510 /* Pods-YuntongxunIM_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuntongxunIM_Example-umbrella.h"; sourceTree = "<group>"; };
-		1853BA8E6CAB7965DDF5B1B2FCB95D8E /* YuntongxunIM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YuntongxunIM.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1853BA8E6CAB7965DDF5B1B2FCB95D8E /* YuntongxunIM.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YuntongxunIM.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		1EC4BCDDCACFB4CE3F07B740AB1F1379 /* Pods-YuntongxunIM_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2DD6B44C13EDCE0E192489F804C39FD8 /* Pods-YuntongxunIM_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuntongxunIM_Tests.modulemap"; sourceTree = "<group>"; };
 		326708A26624546855495110AB4070E8 /* Pods-YuntongxunIM_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YuntongxunIM_Tests"; path = Pods_YuntongxunIM_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C77D7140D3C2E1212159586B8EDB2F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C77D7140D3C2E1212159586B8EDB2F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3CD967ABF1A68AD654ED6A5C90761EE1 /* Pods-YuntongxunIM_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YuntongxunIM_Example"; path = Pods_YuntongxunIM_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		402C48A25EEA1574B95777D79D9F7387 /* YuntongxunIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuntongxunIM.release.xcconfig; sourceTree = "<group>"; };
 		486B78D73F22EB7B1750A6C2E934D313 /* Pods-YuntongxunIM_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YuntongxunIM_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,15 +66,15 @@
 		76BA57C172FE1AEDFB6FD6F38364C182 /* Pods-YuntongxunIM_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Example-Info.plist"; sourceTree = "<group>"; };
 		8236256BB627150F7E352964E5C36BB6 /* Pods-YuntongxunIM_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YuntongxunIM_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96A243E817353B98354F27773C45CEBB /* YuntongxunIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YuntongxunIM.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9B1DAB9780471038F4BA265E182C31E /* Pods-YuntongxunIM_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YuntongxunIM_Example-dummy.m"; sourceTree = "<group>"; };
 		BED19DD48B63DCE4F969A1A44557EBF8 /* Pods-YuntongxunIM_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YuntongxunIM_Tests-Info.plist"; sourceTree = "<group>"; };
 		D10BE2B54E9238A27840092D97E20DA6 /* YuntongxunIM-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "YuntongxunIM-xcframeworks.sh"; sourceTree = "<group>"; };
 		D197D9E0ED8BFBC5880873DB49B20FE8 /* Pods-YuntongxunIM_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YuntongxunIM_Example.modulemap"; sourceTree = "<group>"; };
 		DA34C621D2F414D9DFF30022F7512C60 /* Pods-YuntongxunIM_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YuntongxunIM_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E07A6DBB9312582F29D7798A4FB4319B /* Pods-YuntongxunIM_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YuntongxunIM_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F7AFB72407E14ED6F159D0E73473301F /* YTXIMLibCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YTXIMLibCore.xcframework; path = YTXIMLibs/YTXIMLibCore.xcframework; sourceTree = "<group>"; };
-		FB63EE9F07AC8AAD0D116EAC76C5FE1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F7AFB72407E14ED6F159D0E73473301F /* YTXIMLibCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = YTXIMLibCore.xcframework; path = YTXIMLibs/YTXIMLibCore.xcframework; sourceTree = "<group>"; };
+		FB63EE9F07AC8AAD0D116EAC76C5FE1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -567,8 +568,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
